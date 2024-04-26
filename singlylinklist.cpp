@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-struct node {
+struct Node {
     int noMhs;
     string name;
-    node* next;
+    Node* next;
 };
 
 Node* START = NULL;
